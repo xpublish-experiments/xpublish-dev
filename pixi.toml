@@ -1,0 +1,37 @@
+[project]
+name = "xpublish-dev"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["Alex Kerney <abk@mac.com>"]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tasks]
+lab = "jupyter lab --port=8080 --ip=0.0.0.0"
+demo = "python app/main.py"
+
+[dependencies]
+xarray = ">=2024.2.0,<2024.3"
+nox = ">=2024.3.2,<2024.4"
+netcdf4 = ">=1.6.5,<1.7"
+pytest = ">=8.1.1,<8.2"
+uv = ">=0.1.25,<0.2"
+jupyterlab = ">=4.1.6,<4.2"
+ipython = ">=8.22.2,<8.23"
+cf_xarray = ">=0.9.0,<0.10"
+nodejs = ">=20.12.2,<20.13"
+pydap = ">=3.4.0,<3.5"
+intake-xarray = ">=0.7.0,<0.8"
+rasterio = ">=1.3.10,<1.4"
+asciitree = ">=0.3.3,<0.4"
+pooch = ">=1.8.1,<1.9"
+pytest-xprocess = ">=1.0.1,<1.1"
+kerchunk = ">=0.2.5,<0.3"
+scipy = ">=1.13.0,<1.14"
+
+[pypi-dependencies]
+xpublish = { path = "./xpublish", editable = true}
+xpublish_edr = {path = "./xpublish-edr", editable = true}
+xpublish_opendap = {path = "./xpublish-opendap", editable = true}
+xpublish_intake_provider = {path = "./xpublish-intake-provider", editable = true}
+xpublish_catalog = {path = "./xpublish-catalog", editable = true}

@@ -1,0 +1,18 @@
+[submodule "xpublish"]
+	path = xpublish
+	url = https://github.com/xpublish-community/xpublish.git
+[submodule "xpublish-opendap"]
+	path = xpublish-opendap
+	url = https://github.com/xpublish-community/xpublish-opendap.git
+[submodule "xpublish-edr"]
+	path = xpublish-edr
+	url = https://github.com/xpublish-community/xpublish-edr.git
+[submodule "xpublish-intake-provider"]
+	path = xpublish-intake-provider
+	url = https://github.com/xpublish-community/xpublish-intake-provider.git
+[submodule "xpublish-example"]
+	path = xpublish-example
+	url = https://github.com/noaaroland/xpublish_example.git
+[submodule "xpublish_example"]
+	path = xpublish_example
+	url = https://github.com/noaaroland/xpublish_example.git
