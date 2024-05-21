@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Add a short description here"
 authors = ["Alex Kerney <abk@mac.com>"]
 channels = ["conda-forge"]
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64", "osx-64", "win-64"]
 
 [tasks]
 lab = "jupyter lab --port=8080 --ip=0.0.0.0"
@@ -34,4 +34,4 @@ xpublish = { path = "./xpublish", editable = true}
 xpublish_edr = {path = "./xpublish-edr", editable = true}
 xpublish_opendap = {path = "./xpublish-opendap", editable = true}
 xpublish_intake_provider = {path = "./xpublish-intake-provider", editable = true}
-xpublish_catalog = {path = "./xpublish-catalog", editable = true}
+# xpublish_catalog = {path = "./xpublish-catalog", editable = true}
