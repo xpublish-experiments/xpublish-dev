@@ -34,4 +34,5 @@ xpublish = { path = "./xpublish", editable = true}
 xpublish_edr = {path = "./xpublish-edr", editable = true}
 xpublish_opendap = {path = "./xpublish-opendap", editable = true}
 xpublish_intake_provider = {path = "./xpublish-intake-provider", editable = true}
+xpublish_intake = {path = "./xpublish-intake", editable = true}
 # xpublish_catalog = {path = "./xpublish-catalog", editable = true}

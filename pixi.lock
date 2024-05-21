@@ -371,6 +371,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/28/1c/bdb3411467b805737dd2720b85fd082e49f59bf0cc12dc1dfcc80ab3d274/yarl-1.9.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: ./xpublish
       - pypi: ./xpublish-edr
+      - pypi: ./xpublish-intake
       - pypi: ./xpublish-intake-provider
       - pypi: ./xpublish-opendap
       osx-64:
@@ -724,6 +725,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/7c/a0/887c93020c788f249c24eaab288c46e5fed4d2846080eaf28ed3afc36e8d/yarl-1.9.4-cp312-cp312-macosx_10_9_x86_64.whl
       - pypi: ./xpublish
       - pypi: ./xpublish-edr
+      - pypi: ./xpublish-intake
       - pypi: ./xpublish-intake-provider
       - pypi: ./xpublish-opendap
       osx-arm64:
@@ -1057,6 +1059,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/54/99/ed3c92c38f421ba6e36caf6aa91c34118771d252dce800118fa2f44d7962/yarl-1.9.4-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: ./xpublish
       - pypi: ./xpublish-edr
+      - pypi: ./xpublish-intake
       - pypi: ./xpublish-intake-provider
       - pypi: ./xpublish-opendap
       win-64:
@@ -1405,6 +1408,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/c5/f4/2fdc5a11503bc61818243653d836061c9ce0370e2dd9ac5917258a007675/yarl-1.9.4-cp312-cp312-win_amd64.whl
       - pypi: ./xpublish
       - pypi: ./xpublish-edr
+      - pypi: ./xpublish-intake
       - pypi: ./xpublish-intake-provider
       - pypi: ./xpublish-opendap
 packages:
@@ -1457,8 +1461,8 @@ packages:
 - kind: pypi
   name: aiohttp
   version: 3.9.5
-  url: https://files.pythonhosted.org/packages/a0/00/cdbda8b406ce7b656b9cb765f8134b1edb999f816f54e47347d2bc67f4bf/aiohttp-3.9.5-cp312-cp312-win_amd64.whl
-  sha256: 5ca51eadbd67045396bc92a4345d1790b7301c14d1848feaac1d6a6c9289e888
+  url: https://files.pythonhosted.org/packages/18/5f/f6428eb55244d44e1c674c8c823ae1567136ac1d2f8b128e194dd4febbe1/aiohttp-3.9.5-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 0a158704edf0abcac8ac371fbb54044f3270bdbc93e254a82b6c82be1ef08f3c
   requires_dist:
   - aiosignal>=1.1.2
   - attrs>=17.3.0
@@ -1489,8 +1493,8 @@ packages:
 - kind: pypi
   name: aiohttp
   version: 3.9.5
-  url: https://files.pythonhosted.org/packages/18/5f/f6428eb55244d44e1c674c8c823ae1567136ac1d2f8b128e194dd4febbe1/aiohttp-3.9.5-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 0a158704edf0abcac8ac371fbb54044f3270bdbc93e254a82b6c82be1ef08f3c
+  url: https://files.pythonhosted.org/packages/a0/00/cdbda8b406ce7b656b9cb765f8134b1edb999f816f54e47347d2bc67f4bf/aiohttp-3.9.5-cp312-cp312-win_amd64.whl
+  sha256: 5ca51eadbd67045396bc92a4345d1790b7301c14d1848feaac1d6a6c9289e888
   requires_dist:
   - aiosignal>=1.1.2
   - attrs>=17.3.0
@@ -5194,8 +5198,8 @@ packages:
 - kind: pypi
   name: frozenlist
   version: 1.4.1
-  url: https://files.pythonhosted.org/packages/3e/dc/96647994a013bc72f3d453abab18340b7f5e222b7b7291e3697ca1fcfbd5/frozenlist-1.4.1-cp312-cp312-win_amd64.whl
-  sha256: 64536573d0a2cb6e625cf309984e2d873979709f2cf22839bf2d61790b448ad5
+  url: https://files.pythonhosted.org/packages/46/03/69eb64642ca8c05f30aa5931d6c55e50b43d0cd13256fdd01510a1f85221/frozenlist-1.4.1-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: cc7b01b3754ea68a62bd77ce6020afaffb44a590c2289089289363472d13aedb
   requires_python: '>=3.8'
 - kind: pypi
   name: frozenlist
@@ -5206,8 +5210,8 @@ packages:
 - kind: pypi
   name: frozenlist
   version: 1.4.1
-  url: https://files.pythonhosted.org/packages/46/03/69eb64642ca8c05f30aa5931d6c55e50b43d0cd13256fdd01510a1f85221/frozenlist-1.4.1-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: cc7b01b3754ea68a62bd77ce6020afaffb44a590c2289089289363472d13aedb
+  url: https://files.pythonhosted.org/packages/3e/dc/96647994a013bc72f3d453abab18340b7f5e222b7b7291e3697ca1fcfbd5/frozenlist-1.4.1-cp312-cp312-win_amd64.whl
+  sha256: 64536573d0a2cb6e625cf309984e2d873979709f2cf22839bf2d61790b448ad5
   requires_python: '>=3.8'
 - kind: pypi
   name: frozenlist
@@ -5735,8 +5739,8 @@ packages:
 - kind: pypi
   name: httptools
   version: 0.6.1
-  url: https://files.pythonhosted.org/packages/d3/97/60860e9ee87a7d4712b98f7e1411730520053b9d69e9e42b0b9751809c17/httptools-0.6.1-cp312-cp312-win_amd64.whl
-  sha256: 97662ce7fb196c785344d00d638fc9ad69e18ee4bfb4000b35a52efe5adcc949
+  url: https://files.pythonhosted.org/packages/f8/5d/9ad32b79b6c24524087e78aa3f0a2dfcf58c11c90e090e4593b35def8a86/httptools-0.6.1-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 48ed8129cd9a0d62cf4d1575fcf90fb37e3ff7d5654d3a5814eb3d55f36478c2
   requires_dist:
   - cython<0.30.0,>=0.29.24 ; extra == 'test'
   requires_python: '>=3.8.0'
@@ -5751,8 +5755,8 @@ packages:
 - kind: pypi
   name: httptools
   version: 0.6.1
-  url: https://files.pythonhosted.org/packages/f8/5d/9ad32b79b6c24524087e78aa3f0a2dfcf58c11c90e090e4593b35def8a86/httptools-0.6.1-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 48ed8129cd9a0d62cf4d1575fcf90fb37e3ff7d5654d3a5814eb3d55f36478c2
+  url: https://files.pythonhosted.org/packages/d3/97/60860e9ee87a7d4712b98f7e1411730520053b9d69e9e42b0b9751809c17/httptools-0.6.1-cp312-cp312-win_amd64.whl
+  sha256: 97662ce7fb196c785344d00d638fc9ad69e18ee4bfb4000b35a52efe5adcc949
   requires_dist:
   - cython<0.30.0,>=0.29.24 ; extra == 'test'
   requires_python: '>=3.8.0'
@@ -11656,8 +11660,8 @@ packages:
 - kind: pypi
   name: multidict
   version: 6.0.5
-  url: https://files.pythonhosted.org/packages/4a/68/66fceb758ad7a88993940dbdf3ac59911ba9dc46d7798bf6c8652f89f853/multidict-6.0.5-cp312-cp312-win_amd64.whl
-  sha256: 01265f5e40f5a17f8241d52656ed27192be03bfa8764d88e8220141d1e4b3556
+  url: https://files.pythonhosted.org/packages/be/21/d6ca80dd1b9b2c5605ff7475699a8ff5dc6ea958cd71fb2ff234afc13d79/multidict-6.0.5-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: cbebcd5bcaf1eaf302617c114aa67569dd3f090dd0ce8ba9e35e9985b41ac35b
   requires_python: '>=3.7'
 - kind: pypi
   name: multidict
@@ -11668,8 +11672,8 @@ packages:
 - kind: pypi
   name: multidict
   version: 6.0.5
-  url: https://files.pythonhosted.org/packages/be/21/d6ca80dd1b9b2c5605ff7475699a8ff5dc6ea958cd71fb2ff234afc13d79/multidict-6.0.5-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: cbebcd5bcaf1eaf302617c114aa67569dd3f090dd0ce8ba9e35e9985b41ac35b
+  url: https://files.pythonhosted.org/packages/4a/68/66fceb758ad7a88993940dbdf3ac59911ba9dc46d7798bf6c8652f89f853/multidict-6.0.5-cp312-cp312-win_amd64.whl
+  sha256: 01265f5e40f5a17f8241d52656ed27192be03bfa8764d88e8220141d1e4b3556
   requires_python: '>=3.7'
 - kind: pypi
   name: multidict
@@ -12565,14 +12569,14 @@ packages:
 - kind: pypi
   name: orjson
   version: 3.10.3
-  url: https://files.pythonhosted.org/packages/bd/45/3e339f8a4c41b89586982e161e404b45dc89cc53a81998b735b546cf5b5b/orjson-3.10.3-cp312-none-win_amd64.whl
-  sha256: 4c895383b1ec42b017dd2c75ae8a5b862fc489006afde06f14afbdd0309b2af0
+  url: https://files.pythonhosted.org/packages/ab/21/0c9e5e9af191115bbc5df56f8d1715c6121efafa5e7943d09a998fc2523a/orjson-3.10.3-cp312-cp312-macosx_10_15_x86_64.macosx_11_0_arm64.macosx_10_15_universal2.whl
+  sha256: a39aa73e53bec8d410875683bfa3a8edf61e5a1c7bb4014f65f81d36467ea098
   requires_python: '>=3.8'
 - kind: pypi
   name: orjson
   version: 3.10.3
-  url: https://files.pythonhosted.org/packages/ab/21/0c9e5e9af191115bbc5df56f8d1715c6121efafa5e7943d09a998fc2523a/orjson-3.10.3-cp312-cp312-macosx_10_15_x86_64.macosx_11_0_arm64.macosx_10_15_universal2.whl
-  sha256: a39aa73e53bec8d410875683bfa3a8edf61e5a1c7bb4014f65f81d36467ea098
+  url: https://files.pythonhosted.org/packages/bd/45/3e339f8a4c41b89586982e161e404b45dc89cc53a81998b735b546cf5b5b/orjson-3.10.3-cp312-none-win_amd64.whl
+  sha256: 4c895383b1ec42b017dd2c75ae8a5b862fc489006afde06f14afbdd0309b2af0
   requires_python: '>=3.8'
 - kind: pypi
   name: orjson
@@ -13873,8 +13877,8 @@ packages:
 - kind: pypi
   name: pydantic-core
   version: 2.18.2
-  url: https://files.pythonhosted.org/packages/e4/49/f29028068b5cb364ad066a58490dd26fd1d4ba2943d829eb0f85dbc8ab06/pydantic_core-2.18.2-cp312-none-win_amd64.whl
-  sha256: b1bd7e47b1558ea872bd16c8502c414f9e90dcf12f1395129d7bb42a09a95438
+  url: https://files.pythonhosted.org/packages/15/b1/e6edfe46402a5b415fc3de86aa64fb10009b323907f8d513175bfb839aa9/pydantic_core-2.18.2-cp312-cp312-macosx_10_12_x86_64.whl
+  sha256: fb2bd7be70c0fe4dfd32c951bc813d9fe6ebcbfdd15a07527796c8204bd36242
   requires_dist:
   - typing-extensions>=4.6.0,!=4.7.0
   requires_python: '>=3.8'
@@ -13889,8 +13893,8 @@ packages:
 - kind: pypi
   name: pydantic-core
   version: 2.18.2
-  url: https://files.pythonhosted.org/packages/15/b1/e6edfe46402a5b415fc3de86aa64fb10009b323907f8d513175bfb839aa9/pydantic_core-2.18.2-cp312-cp312-macosx_10_12_x86_64.whl
-  sha256: fb2bd7be70c0fe4dfd32c951bc813d9fe6ebcbfdd15a07527796c8204bd36242
+  url: https://files.pythonhosted.org/packages/e4/49/f29028068b5cb364ad066a58490dd26fd1d4ba2943d829eb0f85dbc8ab06/pydantic_core-2.18.2-cp312-none-win_amd64.whl
+  sha256: b1bd7e47b1558ea872bd16c8502c414f9e90dcf12f1395129d7bb42a09a95438
   requires_dist:
   - typing-extensions>=4.6.0,!=4.7.0
   requires_python: '>=3.8'
@@ -15328,8 +15332,8 @@ packages:
 - kind: pypi
   name: shapely
   version: 2.0.4
-  url: https://files.pythonhosted.org/packages/81/35/6d8b5cf9a747b94e8940619d914280fc4ce8e86e411ad19d39e7e8be036c/shapely-2.0.4-cp312-cp312-win_amd64.whl
-  sha256: 03152442d311a5e85ac73b39680dd64a9892fa42bb08fd83b3bab4fe6999bfa0
+  url: https://files.pythonhosted.org/packages/b2/7f/2479812b618c61d72676749ae644671317af86683eb561183c4f7188cc1a/shapely-2.0.4-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 41388321a73ba1a84edd90d86ecc8bfed55e6a1e51882eafb019f45895ec0f65
   requires_dist:
   - numpy<3,>=1.14
   - numpydoc==1.1.* ; extra == 'docs'
@@ -15358,8 +15362,8 @@ packages:
 - kind: pypi
   name: shapely
   version: 2.0.4
-  url: https://files.pythonhosted.org/packages/b2/7f/2479812b618c61d72676749ae644671317af86683eb561183c4f7188cc1a/shapely-2.0.4-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 41388321a73ba1a84edd90d86ecc8bfed55e6a1e51882eafb019f45895ec0f65
+  url: https://files.pythonhosted.org/packages/81/35/6d8b5cf9a747b94e8940619d914280fc4ce8e86e411ad19d39e7e8be036c/shapely-2.0.4-cp312-cp312-win_amd64.whl
+  sha256: 03152442d311a5e85ac73b39680dd64a9892fa42bb08fd83b3bab4fe6999bfa0
   requires_dist:
   - numpy<3,>=1.14
   - numpydoc==1.1.* ; extra == 'docs'
@@ -16602,8 +16606,8 @@ packages:
 - kind: pypi
   name: uvloop
   version: 0.19.0
-  url: https://files.pythonhosted.org/packages/85/57/6736733bb0e86a4b5380d04082463b289c0baecaa205934ba81e8a1d5ea4/uvloop-0.19.0-cp312-cp312-macosx_10_9_universal2.whl
-  sha256: da8435a3bd498419ee8c13c34b89b5005130a476bda1d6ca8cfdde3de35cd650
+  url: https://files.pythonhosted.org/packages/eb/0c/51339463da912ed34b48d470538d98a91660749b2db56902f23db9b42fdd/uvloop-0.19.0-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 02506dc23a5d90e04d4f65c7791e65cf44bd91b37f24cfc3ef6cf2aff05dc7ec
   requires_dist:
   - sphinx~=4.1.2 ; extra == 'docs'
   - sphinxcontrib-asyncio~=0.3.0 ; extra == 'docs'
@@ -16620,8 +16624,8 @@ packages:
 - kind: pypi
   name: uvloop
   version: 0.19.0
-  url: https://files.pythonhosted.org/packages/eb/0c/51339463da912ed34b48d470538d98a91660749b2db56902f23db9b42fdd/uvloop-0.19.0-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 02506dc23a5d90e04d4f65c7791e65cf44bd91b37f24cfc3ef6cf2aff05dc7ec
+  url: https://files.pythonhosted.org/packages/85/57/6736733bb0e86a4b5380d04082463b289c0baecaa205934ba81e8a1d5ea4/uvloop-0.19.0-cp312-cp312-macosx_10_9_universal2.whl
+  sha256: da8435a3bd498419ee8c13c34b89b5005130a476bda1d6ca8cfdde3de35cd650
   requires_dist:
   - sphinx~=4.1.2 ; extra == 'docs'
   - sphinxcontrib-asyncio~=0.3.0 ; extra == 'docs'
@@ -16745,8 +16749,8 @@ packages:
 - kind: pypi
   name: watchfiles
   version: 0.21.0
-  url: https://files.pythonhosted.org/packages/da/f2/6b1de38aeb21eb9dac1ae6a1ee4521566e79690117032036c737cfab52fa/watchfiles-0.21.0-cp312-none-win_amd64.whl
-  sha256: 18722b50783b5e30a18a8a5db3006bab146d2b705c92eb9a94f78c72beb94094
+  url: https://files.pythonhosted.org/packages/a1/fd/2f009eb17809afd32a143b442856628585c9ce3a9c6d5c1841e44e35a16c/watchfiles-0.21.0-cp312-cp312-macosx_10_7_x86_64.whl
+  sha256: 51ddac60b96a42c15d24fbdc7a4bfcd02b5a29c047b7f8bf63d3f6f5a860949a
   requires_dist:
   - anyio>=3.0.0
   requires_python: '>=3.8'
@@ -16761,8 +16765,8 @@ packages:
 - kind: pypi
   name: watchfiles
   version: 0.21.0
-  url: https://files.pythonhosted.org/packages/a1/fd/2f009eb17809afd32a143b442856628585c9ce3a9c6d5c1841e44e35a16c/watchfiles-0.21.0-cp312-cp312-macosx_10_7_x86_64.whl
-  sha256: 51ddac60b96a42c15d24fbdc7a4bfcd02b5a29c047b7f8bf63d3f6f5a860949a
+  url: https://files.pythonhosted.org/packages/da/f2/6b1de38aeb21eb9dac1ae6a1ee4521566e79690117032036c737cfab52fa/watchfiles-0.21.0-cp312-none-win_amd64.whl
+  sha256: 18722b50783b5e30a18a8a5db3006bab146d2b705c92eb9a94f78c72beb94094
   requires_dist:
   - anyio>=3.0.0
   requires_python: '>=3.8'
@@ -16880,8 +16884,8 @@ packages:
 - kind: pypi
   name: websockets
   version: '12.0'
-  url: https://files.pythonhosted.org/packages/20/52/8915f51f9aaef4e4361c89dd6cf69f72a0159f14e0d25026c81b6ad22525/websockets-12.0-cp312-cp312-win_amd64.whl
-  sha256: ae0a5da8f35a5be197f328d4727dbcfafa53d1824fac3d96cdd3a642fe09394f
+  url: https://files.pythonhosted.org/packages/39/34/364f30fdf1a375e4002a26ee3061138d1571dfda6421126127d379d13930/websockets-12.0-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: dbcf72a37f0b3316e993e13ecf32f10c0e1259c28ffd0a85cee26e8549595fbc
   requires_python: '>=3.8'
 - kind: pypi
   name: websockets
@@ -16892,8 +16896,8 @@ packages:
 - kind: pypi
   name: websockets
   version: '12.0'
-  url: https://files.pythonhosted.org/packages/39/34/364f30fdf1a375e4002a26ee3061138d1571dfda6421126127d379d13930/websockets-12.0-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: dbcf72a37f0b3316e993e13ecf32f10c0e1259c28ffd0a85cee26e8549595fbc
+  url: https://files.pythonhosted.org/packages/20/52/8915f51f9aaef4e4361c89dd6cf69f72a0159f14e0d25026c81b6ad22525/websockets-12.0-cp312-cp312-win_amd64.whl
+  sha256: ae0a5da8f35a5be197f328d4727dbcfafa53d1824fac3d96cdd3a642fe09394f
   requires_python: '>=3.8'
 - kind: pypi
   name: websockets
@@ -17316,6 +17320,15 @@ packages:
   requires_python: '>=3.7'
   editable: true
 - kind: pypi
+  name: xpublish-intake
+  version: 0.1.dev15+g1332d0b
+  path: ./xpublish-intake
+  sha256: c0548166c8a8d3e694f565c1a419a789ce146b096f6d0cd047e568106245f6d6
+  requires_dist:
+  - xpublish
+  requires_python: '>=3.8'
+  editable: true
+- kind: pypi
   name: xpublish-intake-provider
   version: 0.1.2.dev12+gbecdd38.d20240521
   path: ./xpublish-intake-provider
@@ -17465,8 +17478,8 @@ packages:
 - kind: pypi
   name: yarl
   version: 1.9.4
-  url: https://files.pythonhosted.org/packages/c5/f4/2fdc5a11503bc61818243653d836061c9ce0370e2dd9ac5917258a007675/yarl-1.9.4-cp312-cp312-win_amd64.whl
-  sha256: a9bd00dc3bc395a662900f33f74feb3e757429e545d831eef5bb280252631984
+  url: https://files.pythonhosted.org/packages/7c/a0/887c93020c788f249c24eaab288c46e5fed4d2846080eaf28ed3afc36e8d/yarl-1.9.4-cp312-cp312-macosx_10_9_x86_64.whl
+  sha256: 44d8ffbb9c06e5a7f529f38f53eda23e50d1ed33c6c869e01481d3fafa6b8142
   requires_dist:
   - idna>=2.0
   - multidict>=4.0
@@ -17485,8 +17498,8 @@ packages:
 - kind: pypi
   name: yarl
   version: 1.9.4
-  url: https://files.pythonhosted.org/packages/7c/a0/887c93020c788f249c24eaab288c46e5fed4d2846080eaf28ed3afc36e8d/yarl-1.9.4-cp312-cp312-macosx_10_9_x86_64.whl
-  sha256: 44d8ffbb9c06e5a7f529f38f53eda23e50d1ed33c6c869e01481d3fafa6b8142
+  url: https://files.pythonhosted.org/packages/c5/f4/2fdc5a11503bc61818243653d836061c9ce0370e2dd9ac5917258a007675/yarl-1.9.4-cp312-cp312-win_amd64.whl
+  sha256: a9bd00dc3bc395a662900f33f74feb3e757429e545d831eef5bb280252631984
   requires_dist:
   - idna>=2.0
   - multidict>=4.0

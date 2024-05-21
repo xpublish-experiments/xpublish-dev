@@ -16,3 +16,6 @@
 [submodule "xpublish_example"]
 	path = xpublish_example
 	url = https://github.com/noaaroland/xpublish_example.git
+[submodule "xpublish-intake"]
+	path = xpublish-intake
+	url = https://github.com/xpublish-community/xpublish-intake.git
