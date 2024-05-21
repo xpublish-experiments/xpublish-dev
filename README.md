@@ -4,6 +4,12 @@ And example development environment for Xpublish and it's plugins using git subm
 
 It uses https://pixi.sh/latest/ to manage dependencies.
 
+After cloning the project, you must update the git submodules:
+
+```
+git submodule update
+```
+
 To run a test server, try `pixi run demo` which will launch `app/main.py`,
 with a selection of plugins and datasets.
 
