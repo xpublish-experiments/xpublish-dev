@@ -7,7 +7,7 @@ It uses https://pixi.sh/latest/ to manage dependencies.
 After cloning the project, you must update the git submodules:
 
 ```
-git submodule update
+git submodule update --init
 ```
 
 To run a test server, try `pixi run demo` which will launch `app/main.py`,
